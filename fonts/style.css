@@ -81,6 +81,8 @@ a:hover {
     margin-top: 2.5em;
 }
 
-svgImg {
+.svgImg {
     width: auto;
+    height: auto;
+    display: block;
 }
