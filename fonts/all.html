@@ -12,6 +12,7 @@
     <title>M59</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     
@@ -51,6 +52,15 @@
                 img.src = originalSrc;
             });
         });
+
+        window.addEventListener("pageshow", e => {
+            if (e.persisted) {
+                document.querySelectorAll("img").forEach(img => {
+                img.src = img.src;
+                });
+            }
+        });
+        
     </script>
 
 </body>
