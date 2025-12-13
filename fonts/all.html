@@ -52,14 +52,6 @@
                 img.src = originalSrc;
             });
         });
-
-        window.addEventListener("pageshow", e => {
-            if (e.persisted) {
-                document.querySelectorAll("img").forEach(img => {
-                img.src = img.src;
-                });
-            }
-        });
         
     </script>
 
