@@ -80,3 +80,9 @@ a:hover {
 #first, .bigass {
     margin-top: 2.5em;
 }
+
+.svgImg {
+    width: auto;
+    height: auto;
+    display: block;
+}
